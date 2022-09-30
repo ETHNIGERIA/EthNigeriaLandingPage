@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../../components/Footer/Footer";
 import { images } from "../../constants";
 import About from "./About";
 import Contact from "./Contact";
@@ -59,6 +60,7 @@ const Home = () => {
       <Learn />
       <Events />
       <Contact />
+      <Footer />
     </>
   );
 };
