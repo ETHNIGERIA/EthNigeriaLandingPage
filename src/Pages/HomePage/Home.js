@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../../components/Footer/Footer";
 import { images } from "../../constants";
 import About from "./About";
+import Community from "./Community";
 import Contact from "./Contact";
 import Events from "./Events";
 import Learn from "./Learn";
@@ -57,6 +58,7 @@ const Home = () => {
     <>
       <Main />
       <About />
+      <Community />
       <Learn />
       <Events />
       <Contact />

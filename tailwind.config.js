@@ -30,6 +30,7 @@ module.exports = {
         900: "#707A7E",
         000: "#4A5154",
         dark: "#2D3132",
+        cyan: "#CCFCFF",
       },
     },
     extend: {},
