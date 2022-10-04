@@ -11,37 +11,37 @@ const Learn = () => {
         <h4>tracks</h4>
       </div>
 
-      <div className="flex items-center space-x-8">
-        <div>
-          <div className="h-">
+      <div className="flex items-center space-x-[7rem]">
+        <div className="h-[18rem] w-[17rem]">
+          <div>
             <img className="w-[17rem] h-[11rem] mb-4" src={images.learningTrackOne} alt="learning track" />
 
           </div>
-          <h3>Malesuada Fermentum Tortor</h3>
+          <h3 className="font-bold mb-4">Malesuada Fermentum Tortor</h3>
           <p>consectetur adipiscing elit duis tristique sollicitudin nibh sit amet</p>
         </div>
+        <div className="h-[18rem] w-[17rem]">
         <div>
-        <div className="h-">
         <img className="w-[17rem] h-[11rem] mb-4" src={images.learningTrackTwo} alt="learning track" />
         </div>
-          <h3>Malesuada Fermentum Tortor</h3>
+          <h3 className="font-bold mb-4">Malesuada Fermentum Tortor</h3>
           <p>consectetur adipiscing elit duis tristique sollicitudin nibh sit amet</p>
         </div>
       </div>
 
-      <div className="flex items-center space-x-8 my-8">
-        <div className="h-">
+      <div className="flex items-center space-x-[7rem] my-8">
+        <div className="h-[18rem] w-[17rem]">
           <div>
           <img className="w-[17rem] h-[11rem] mb-4" src={images.learningTrackThree} alt="learning track" />
           </div>
-          <h3>Malesuada Fermentum Tortor</h3>
+          <h3 className="font-bold mb-4">Malesuada Fermentum Tortor</h3>
           <p>consectetur adipiscing elit duis tristique sollicitudin nibh sit amet</p>
         </div>
-        <div className="h-">
+        <div className="h-[18rem] w-[17rem]">
           <div>
           <img className="w-[17rem] h-[11rem] mb-4" src={images.learningTrackFour} alt="learning track" />
           </div>
-            <h3>Malesuada Fermentum Tortor</h3>
+            <h3 className="font-bold mb-4">Malesuada Fermentum Tortor</h3>
             <p>consectetur adipiscing elit duis tristique sollicitudin nibh sit amet</p>
           </div>
       </div>

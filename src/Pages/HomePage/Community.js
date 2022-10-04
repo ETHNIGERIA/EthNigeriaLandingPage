@@ -9,25 +9,25 @@ const Community = () => {
           <p>consectetur adipiscing elit duis tristique sollicitudin nibh sit amet</p>
         </div>
     
-        <div className="flex space-x-[4rem] mb-8 items-center">
+        <div className="flex space-x-[3rem] mb-8 items-center">
           <div>
-            <img className="w-[25rem] h-[25rem]" src={images.ethCommunity} alt="ethereum community" />
+            <img className="w-[20rem] h-[20rem]" src={images.ethCommunity} alt="ethereum community" />
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col w-[18rem]">
             <h2 className="text-2xl font-bold mb-8">Ethereum  Nigeria <br/>Community</h2>
             <p className="mb-8">consectetur adipiscing elit duis tristique sollicitudin nibh sit amet </p>
             <button className="bg-[#0178D4] w-[15rem] px-3 py-3 mt-4 text-sm font-medium tracking-wide text-[#fff] transition-colors duration-300 transform rounded-md hover:bg-blue-900 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">Join the community</button>
           </div>
         </div>
     
-        <div className="flex space-x-[4rem] my-8 items-center">
-          <div className="flex flex-col">
+        <div className="flex space-x-[3rem] my-8 items-center">
+          <div className="flex flex-col w-[18rem]">
             <h2 className="text-2xl font-bold mb-8">Filecoin Orbit Nigeria<br/> Community</h2>
             <p className="mb-8">consectetur adipiscing elit duis tristique sollicitudin nibh sit amet</p>
             <button className="bg-[#0178D4] w-[15rem] px-3 py-3 mt-4 text-sm font-medium tracking-wide text-[#fff] transition-colors duration-300 transform rounded-md hover:bg-blue-900 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">Join the community</button>
           </div>
           <div>
-            <img className="w-[25rem] h-[25rem]" src={images.filCommunity} alt="filecoin community" />
+            <img className="w-[20rem] h-[20rem]" src={images.filCommunity} alt="filecoin community" />
           </div>
         </div>
         </div>
