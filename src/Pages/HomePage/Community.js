@@ -3,7 +3,7 @@ import { images } from "../../constants";
 
 const Community = () => {
     return (
-        <div className="bg-gradient-to-b from-secondary-cyan flex flex-col items-center my-8 py-4">
+        <div className="bg-primary-100 flex flex-col items-center my-8 py-4">
         <div className="flex flex-col text-center my-8 px-3">
           <h3 className="text-3xl font-bold">Malesuada Fermentum Tortor</h3>
           <p>consectetur adipiscing elit duis tristique sollicitudin nibh sit amet</p>
@@ -16,7 +16,7 @@ const Community = () => {
           <div className="flex flex-col w-[18rem] items-center">
             <h2 className="text-2xl font-bold mb-8">Ethereum  Nigeria <br/>Community</h2>
             <p className="mb-8">consectetur adipiscing elit duis tristique sollicitudin nibh sit amet </p>
-            <button className="bg-[#0178D4] w-[15rem] px-3 py-3 mt-4 text-sm font-medium tracking-wide text-[#fff] transition-colors duration-300 transform rounded-md hover:bg-blue-900 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">Join the community</button>
+            <button className="bg-primary-800 w-[15rem] px-3 py-3 mt-4 text-sm font-medium tracking-wide text-[#fff] transition-colors duration-300 transform rounded-md hover:bg-blue-900 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">Join the community</button>
           </div>
         </div>
     

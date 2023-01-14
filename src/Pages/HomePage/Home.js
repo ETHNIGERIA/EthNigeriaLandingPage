@@ -12,22 +12,20 @@ const Main = () => {
     <>
       <div className="container relative flex flex-col mx-auto px-6">
         <div className="flex mb-[80px]">
-          <div className="w-3/5 pr-20">
-            <div className="text-5xl text-primary leading-{58} mt-[120px] ">
-              Malesuada Fermentum Tortor Malesuada Fermentum
+          <div className="w-3/5 pl-20 pr-20">
+            <div className="text-5xl text-primary leading-{58} mt-[30%] ">
+              Growing the Ethereum ecosystem in Africa.
             </div>
-            <div className="text-2xl mt-4 ml-2">
-              consectetur adipiscing elit duis tristique sollicitudin nibh sit
-              amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus
-              vitae congue
+            <div className="text-2xl mt-[30px] ml-2">
+            <span className="text-primary">ANTICIPATE : </span>THE OFFICIAL WEB3 CONFERENCE OF NIGERIA BLOCKCHAIN WEEK
             </div>
-            <div className="flex mt-[170px]">
-              <div className="w-[292px] h-[89px ml-2 mr-10 rounded-[21px] flex justify-center items-center bg-primary text-secondary text-2xl">
+            <div className="flex mt-[70px]">
+              <div className="w-[100%] py-[15px] h-[89px ml-2 mr-10 rounded-[21px] flex justify-center items-center border-primary border hover:bg-primary hover:text-secondary text-primary text-2xl">
                 Join the community
               </div>
-              <div className="w-[292px] h-[89px] rounded-[21px] flex justify-center items-center text-primary border-primary border text-2xl">
+              {/* <div className="w-[292px] h-[89px] rounded-[21px] flex justify-center items-center text-primary border-primary border text-2xl">
                 Events
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="relative">

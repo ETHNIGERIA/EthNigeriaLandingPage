@@ -4,7 +4,7 @@ import { images } from '../../constants';
 
 const About = () => {
   return (
-    <div className="flex flex-col mx-auto items-center w-full">
+    <div className="flex flex-col mx-auto items-center w-full bg-primary-800 text-[#fff]">
       <div className="flex flex-col my-6 items-center justify-center text-center px-3">
         <h3 className='text-3xl font-bold'>Who we are</h3>
         <p>consectetur adipiscing elit duis tristique sollicitudin nibh sit amet</p>

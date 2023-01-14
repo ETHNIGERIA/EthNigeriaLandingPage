@@ -3,7 +3,7 @@ import { images } from "../../constants";
 
 const Navbar = () => {
   return (
-    <div className="fixed bg-[#fff] flex justify-between w-full z-10 mt-3">
+    <div className="fixed bg-[#000] flex justify-between w-full z-10 text-[#fff]">
       <div className="flex justify-center items-center pl-[50px]">
         <img
           src={images.ethLogoGreen}

@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <>
              <Leftsvg />
-                <footer className="bg-[#111111A6]">
+                <footer className="bg-primary-dark">
                     <div className="container p-6 mx-auto">
                         <div className="lg:flex pl-6">
                             <div className="mt-6 lg:mt-0 lg:flex-1">
@@ -72,7 +72,7 @@ const Footer = () => {
                 <hr className="h-1 my-6 bg-[#fff] border-none" />
 
                 <div>
-                    <p className="text-center text-[#fff]">&copy; 2022 - All Rights Reserved</p>
+                    <p className="text-center text-[#fff]">&copy; 2023 - All Rights Reserved</p>
                 </div>
             </div>
         </footer>
