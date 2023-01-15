@@ -7,7 +7,7 @@ const Learn = () => {
       <div className="text-center mb-8 px-3 space-y-8">
         <h1 className="text-5xl drop-shadow-lg shadow-black font-bold mt-8">REGISTER FOR OUR UPCOMING BOOTCAMP</h1>
         <p className="text-2xl  ">Our Upcoming 3-month intensive bootcamp aims to introduce developers into web3 , teach the basics of solidity and how to build decentralized applications</p>
-        <button className='w-[50%] bg-primary py-5 rounded-3xl hover:bg-none block mx-auto'> Register Here </button>
+        <a className='w-[50%] bg-primary py-5 rounded-3xl hover:bg-none block mx-auto' href="https://bit.ly/ETHNigeriaBootcamp"> Register Here </a>
         
         {/* <h4 className="font-bold text-1.5xl">Tracks</h4> */}
       </div>
