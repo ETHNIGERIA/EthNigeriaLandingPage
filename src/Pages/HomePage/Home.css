@@ -1,0 +1,54 @@
+header{
+    background-image: url('../../assets/ethMerge1.png');
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+        /* From https://css.glass */
+    background: rgba(58, 184, 58, 0.32);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.1px);
+    -webkit-backdrop-filter: blur(12.1px);
+    border: 1px solid rgba(58, 184, 58, 0.24);
+    position: relative;
+}
+.hero-text{
+    /* border: 1px solid green; */
+    position: absolute;
+    top: 25%;
+    padding-left: 5%
+}
+.hero-text> h3{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.btnGroup{
+    width: 100%;
+    margin-top: 4rem;
+}
+.btnGroup > button{
+    color: white;
+    font-size: 1.3rem;
+    width: 60%;
+    padding: 10px;
+    border: 2px solid #3AB83A;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+}
+.btnGroup > button:hover{
+    background-color: #3AB83A
+}
+.grn{
+    background-color: white;
+    color: #3AB83A;
+    margin: 0 10px;
+
+}
+.marqueeImg{
+    margin-right: 2rem;
+}

@@ -5,8 +5,8 @@ import Leftsvg from "../Leftsvg";
 const Footer = () => {
     return (
         <>
-             <Leftsvg />
-                <footer className="bg-primary-dark">
+             {/* <Leftsvg /> */}
+                <footer className="bg-primary-dark p-5">
                     <div className="container p-6 mx-auto">
                         <div className="lg:flex pl-6">
                             <div className="mt-6 lg:mt-0 lg:flex-1">

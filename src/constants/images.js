@@ -17,6 +17,7 @@ import learningTrackOne from "../assets/track1.png";
 import learningTrackTwo from "../assets/track2.png";
 import learningTrackThree from "../assets/track3.png";
 import learningTrackFour from "../assets/track4.png";
+import ethMerge from "../assets/ethMerge1.png";
 
 const images = {
   ethLogoGreen,
@@ -37,7 +38,8 @@ const images = {
   learningTrackOne,
   learningTrackTwo,
   learningTrackThree,
-  learningTrackFour
+  learningTrackFour,
+  ethMerge
 };
 
 export default images;

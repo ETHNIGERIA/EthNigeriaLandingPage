@@ -1,16 +1,18 @@
 import React from 'react'
+import Footer from '../../components/Footer/Footer'
 import Rightsvg from '../../components/Rightsvg'
 
 const Contact = () => {
   return (
     <>
-      <Rightsvg />
-      <section className="min-h-screen bg-white dark:bg-gray-900 lg:flex w-full align-center justify-center mt-24">
+      {/* <Rightsvg /> */}
+      <section className="min-h-screen bg-white dark:bg-gray-900 lg:flex w-full align-center justify-center">
     <div className="flex flex-col justify-center w-full p-8 pt-0 lg:w-1/2 lg:px-12 xl:px-24 ">
-        <div className='my-10 text-center'>
+        <div className='my-10 text-center mt-[10%]'>
           <h3 className='text-3xl my-2'>Get in touch with us</h3>
           <p className='text-bold'>consectetur adipiscing elit duis tristique sollicitudin</p>
         </div>
+        <Rightsvg />
         <form>
             <div className="-mx-2 md:items-center md:flex">
                 <div className="flex-1 px-2">
@@ -35,7 +37,7 @@ const Contact = () => {
         </form>
     </div>
 </section>
-
+<Footer />
     </>
     )
 }

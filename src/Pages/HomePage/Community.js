@@ -3,7 +3,7 @@ import { images } from "../../constants";
 
 const Community = () => {
     return (
-        <div className="bg-primary-100 flex flex-col items-center my-8 py-4">
+        <div className="bg-primary-100 flex flex-col items-center py-4">
         <div className="flex flex-col text-center my-8 px-3">
           <h3 className="text-3xl font-bold">Malesuada Fermentum Tortor</h3>
           <p>consectetur adipiscing elit duis tristique sollicitudin nibh sit amet</p>
