@@ -1,4 +1,5 @@
 import React from "react";
+import { Envelope, EnvelopeAtFill } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
 import Leftsvg from "../Leftsvg";
 
@@ -10,22 +11,22 @@ const Footer = () => {
                     <div className="container p-6 mx-auto">
                         <div className="lg:flex pl-6">
                             <div className="mt-6 lg:mt-0 lg:flex-1">
-                                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-                                    <div className="text-[#fff] font-Inter">
-                                        <h3 className="uppercase">Company</h3>
+                                <div className="flex justify-around">
+                                    {/* <div className="text-[#fff] font-Inter">
+                                        <h3 className="uppercase">Eth Ng</h3>
                                         <Link to="/" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">About us</Link>
                                         <Link to="/" className="block mt-1 text-sm text-gray-600 dark:text-gray-400 hover:underline">Contact us</Link>
                                         <Link to="/" className="block mt-1 text-sm text-gray-600 dark:text-gray-400 hover:underline">Privacy policy</Link>
                                         <Link to="/" className="block mt-1 text-sm text-gray-600 dark:text-gray-400 hover:underline">Terms of Use</Link>
-                                    </div>
+                                    </div> */}
 
-                                    <div className="text-[#fff] font-Inter">
+                                    {/* <div className="text-[#fff] font-Inter">
                                         <h3 className="uppercase text-white">Product</h3>
                                         <Link to="/" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Dashboard</Link>
                                         <Link to="/" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Courses</Link>
                                         <Link to="/" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">People</Link>
                                         <Link to="/" className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">Blog</Link>
-                                    </div>
+                                    </div> */}
 
                                     <div className="text-[#fff] font-Inter">
                                         <h3 className="uppercase text-white">Get in Touch</h3>
@@ -63,6 +64,11 @@ const Footer = () => {
                                                 </svg>
                                             </a>
                                             </div>
+                                            <div className="bg-[#fff] rounded-full w-10 h-10 ml-2 ">
+                                                <EnvelopeAtFill color="black" className="mt-[10px] ml-[7.5px]" size={25}/>
+                                            </div>
+                                            
+
                                         </div>
                                     </div>
                                 </div>

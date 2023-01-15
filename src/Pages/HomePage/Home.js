@@ -12,16 +12,14 @@ import Marquee from "react-fast-marquee";
 const Header = () => {
   return(
     <header>
-      <div className="overlay">
+      <div className="overlay-1">
         <div className="hero-text container">
-          <h3 className="text-[#fff]">
-              Growing the<span className="grn"> Ethereum </span> ecosystem in Africa.
-            </h3>
-            <div className="btnGroup">
+          
+        {/* <div className="btnGroup">
               <button>
                 Join The Community
               </button>
-            </div>
+            </div> */}
            
         </div>
       </div>
@@ -61,14 +59,17 @@ const Main = () => {
         </div>
       </div> */}
       <Header />
-        <Marquee speed={80}>
-          <img className="marqueeImg" src={images.blockchainAfrica} alt="Blockchain Africa" />
+        <Marquee speed={80} className="flex">
+          {/* <img className="marqueeImg" src={images.blockchainAfrica} alt="Blockchain Africa" />
           <img className="marqueeImg" src={images.stacks} alt="Blockchain Africa" />
           <img className="marqueeImg" src={images.blockverse} alt="Blockchain Africa" />
           <img className="marqueeImg" src={images.web3Ladies} alt="Blockchain Africa" />
           <img className="marqueeImg" src={images.blockchainUni} alt="Blockchain Africa" />
           <img className="marqueeImg" src={images.ethLogoGreen} alt="Blockchain Africa" />
-          <img className="marqueeImg" src={images.pinata} alt="Blockchain Africa" />
+          <img className="marqueeImg" src={images.pinata} alt="Blockchain Africa" /> */}
+            <h3 className="text-[#000] text-2xl">
+               Growing the<span className="grn"> Ethereum </span> <img src={images.ethLogoGreen} alt="" className="w-[10%] inline"/> ecosystem in Africa.
+              </h3>
         </Marquee>
        
     </>

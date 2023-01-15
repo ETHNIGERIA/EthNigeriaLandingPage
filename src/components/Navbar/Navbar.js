@@ -25,7 +25,7 @@ const Navbar = () => {
     window.addEventListener("scroll", changeBackground)
   })
   return (
-    <div className={navbar ? `fixed flex justify-between w-full z-10 text-[#fff] navbar`: `fixed flex justify-between w-full z-10 text-[#fff]`}>
+    <div className={navbar ? `fixed flex justify-between w-full z-10 text-[#fff] navbar`: `fixed flex justify-between w-full z-10`}>
       <div className="flex justify-center items-center pl-[50px]">
         <Link to="home">
           <img
@@ -36,10 +36,11 @@ const Navbar = () => {
         </Link>
         
         <div className="font-extrabold text-lg">ETHNigeria</div>
+        
       </div>
       <div className="flex justify-around items-center pr-[90px]">
         <div className="font-extrabold text-lg p-6">
-          <a href="https://google.com">About</a>
+          <a href="#aboutus">About</a>
         </div>
         <div className="font-extrabold text-lg p-6">
           <a href="https://google.com">Events</a>

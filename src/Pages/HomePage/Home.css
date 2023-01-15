@@ -5,11 +5,11 @@ header{
     height: 70vh;
     width: 100%;
 }
-.overlay{
+.overlay-1{
     width: 100%;
     height: 100%;
         /* From https://css.glass */
-    background: rgba(58, 184, 58, 0.32);
+    background: rgba(58, 184, 58, 0.12);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(1.1px);
     -webkit-backdrop-filter: blur(12.1px);
@@ -19,7 +19,7 @@ header{
 .hero-text{
     /* border: 1px solid green; */
     position: absolute;
-    top: 25%;
+    top: 15%;
     padding-left: 5%
 }
 .hero-text> h3{
@@ -44,11 +44,18 @@ header{
     background-color: #3AB83A
 }
 .grn{
-    background-color: white;
+    /* background-color: white; */
     color: #3AB83A;
     margin: 0 10px;
 
 }
 .marqueeImg{
     margin-right: 2rem;
+}
+.glass{
+    background: rgba(58, 184, 58, 0.12);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.1px);
+    -webkit-backdrop-filter: blur(12.1px);
+    border: 1px solid rgba(58, 184, 58, 0.24);
 }
