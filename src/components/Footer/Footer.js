@@ -1,7 +1,7 @@
 import React from "react";
-import { Envelope, EnvelopeAtFill } from "react-bootstrap-icons";
+import { EnvelopeAtFill } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
-import Leftsvg from "../Leftsvg";
+// import Leftsvg from "../Leftsvg";
 
 const Footer = () => {
     return (
