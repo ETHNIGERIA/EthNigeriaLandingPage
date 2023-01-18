@@ -25,8 +25,8 @@ const Navbar = () => {
     window.addEventListener("scroll", changeBackground)
   })
   return (
-    <div className={navbar ? `fixed flex justify-between w-full z-10 text-[#fff] navbar`: `fixed flex justify-between w-full z-10`}>
-      <div className="flex justify-center items-center pl-[50px]">
+    <div className={navbar ? `fixed flex justify-between w-[100%] z-10 text-[#fff] navbar`: `fixed flex justify-between w-full z-10`}>
+      <div className="flex md:justify-center items-center md:pl-[50px] hover:text-[#ff0000]">
         <Link to="home">
           <img
             src={images.ethLogoGreen}
@@ -35,15 +35,19 @@ const Navbar = () => {
           />
         </Link>
         
-        <div className="font-extrabold text-lg">ETHNigeria</div>
+        <div className="font-extrabold text-lg text-primary">
+          <Link to="home">
+            ETHNigeria
+          </Link>
+        </div>
         
       </div>
-      <div className="flex justify-around items-center pr-[90px]">
-        <div className="font-extrabold text-lg p-6">
-          <a href="#aboutus">About</a>
+      <div className="flex justify-around items-center md:pr-[90px]">
+        <div className="font-extrabold text-lg p-6 hed">
+         <Link to="/">About</Link>
         </div>
-        <div className="font-extrabold text-lg p-6">
-          <a href="https://google.com">Events</a>
+        <div className="font-extrabold text-lg p-6 hed">
+          <a href="/">Events</a>
         </div>
         <div className="font-extrabold text-lg p-6">
           <Link to="contact">Contact Us</Link>

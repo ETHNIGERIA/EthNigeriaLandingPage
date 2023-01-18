@@ -14,7 +14,7 @@ const Community = () => {
           <div className="mb-6">
             <img className="w-[20rem] h-[20rem]" src={images.ethCommunity} alt="ethereum community" />
           </div>
-          <div className="flex flex-col w-[18rem] items-center">
+          <div className="flex flex-col w-[18rem] md:items-center">
             <h2 className="text-2xl font-bold mb-8">Ethereum  Nigeria <br/>Community</h2>
             {/* <p className="mb-8">consectetur adipiscing elit duis tristique sollicitudin nibh sit amet </p> */}
             <a href="https://bit.ly/ETHNigeriaCommunity" className="bg-primary-800 w-[15rem] px-3 py-3 mt-4 text-sm font-medium tracking-wide text-[#fff] transition-colors duration-300 transform rounded-md hover:bg-blue-900 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">Join </a>
