@@ -45,7 +45,8 @@ const About = () => {
                 alt="slider image" />
         
           </div>
-          <button className='w-[90%] md:w-[50%] border-primary border py-5 rounded-3xl hover:bg-primary'> Check out our gallery </button>
+            <a href="/#/gallery" className='w-[90%] md:w-[50%] text-center border-primary border py-5 rounded-3xl hover:bg-primary'> Check out our gallery </a>
+
     </div>
   )
 }

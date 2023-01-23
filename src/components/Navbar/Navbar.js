@@ -64,7 +64,7 @@ const Navbar = () => {
     //   </div>
       <div className={navbar ? `fixed flex justify-between w-full z-10 text-[#fff] navbar`: `fixed flex justify-between w-full z-10 `}>
         <div className="p-6">
-          <Link to="home" className="flex">
+          <Link to="/" className="flex">
             <img
               src={images.ethLogoGreen}
               style={{ width: "24px", height: "24px" }}
