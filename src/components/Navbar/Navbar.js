@@ -86,7 +86,7 @@ const Navbar = () => {
         </div>
         <nav className={showNavItems ? "md:flex" :"hidden md:flex"}>
           <div className="navbar-link">
-            <Link to="/">About</Link>
+            <Link to="about">About</Link>
           </div>
           <div className="navbar-link">
             <a href="/">Events</a>  
