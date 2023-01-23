@@ -1,8 +1,37 @@
 import React from 'react'
 import Footer from '../../components/Footer/Footer'
 import Rightsvg from '../../components/Rightsvg'
+import emailjs from "emailjs-com";
+import Swal from "sweetalert2";
 
 const Contact = () => {
+
+    const publicKey = "reYT-0D9oKkzCqb4i";
+    const SERVICE_ID = "service_86gxglw";
+    const TEMPLATE_ID = "template_nwlnxog";
+
+    const handleOnSubmit = (e) => {
+        e.preventDefault();
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, publicKey).then(
+          (result) => {
+            console.log(result.text);
+            Swal.fire({
+              icon: "success",
+              title: "Message Sent Successfully",
+            });
+          },
+          (error) => {
+            console.log(error.text);
+            Swal.fire({
+              icon: "error",
+              title: "Ooops, something went wrong, try again!",
+              text: error.text,
+            });
+          }
+        );
+        e.target.reset();
+      };
+
   return (
     <>
       {/* <Rightsvg /> */}
@@ -13,7 +42,7 @@ const Contact = () => {
             <p className='text-bold'>If you have any questions or any contributions , feel free to message us</p>
             </div>
             <Rightsvg />
-            <form className='relative top-[-15%]'>
+            <form className='relative top-[-15%]' onSubmit={handleOnSubmit}>
                 <div className="-mx-2 md:items-center md:flex">
                     <div className="flex-1 px-2">
                         <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200">Name</label>
@@ -31,7 +60,7 @@ const Contact = () => {
                     <textarea className="block w-full h-32 px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 border border-bg-primary rounded-md md:h-56 focus:border-blue-400  focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40 outline-none" placeholder="Message"></textarea>
                 </div>
 
-                <button className="bg-primary w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-[#fff] transition-colors duration-300 transform rounded-md hover:bg-blue-900 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+                <button type="submit" className="bg-primary w-full px-6 py-3 mt-4 text-sm font-medium tracking-wide text-[#fff] transition-colors duration-300 transform rounded-md hover:bg-blue-900 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
                     Send a message
                 </button>
             </form>
