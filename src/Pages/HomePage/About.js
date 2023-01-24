@@ -45,7 +45,7 @@ const About = () => {
                 alt="slider image" />
         
           </div>
-            <a href="/#/gallery" className='w-[90%] md:w-[50%] text-center border-primary border py-5 rounded-3xl hover:bg-primary'> Check out our gallery </a>
+            <a href="/#/gallery" className='w-[90%] md:w-[50%] text-center border-primary border py-5 rounded-3xl hover:bg-primary opacity-5' > Check out our gallery </a>
 
     </div>
   )
