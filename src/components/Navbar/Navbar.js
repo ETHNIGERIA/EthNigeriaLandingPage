@@ -89,7 +89,7 @@ const Navbar = () => {
             <Link to="about">About</Link>
           </div>
           <div className="navbar-link">
-            <a href="/">Events</a>  
+            <Link to="events">Events</Link>  
           </div>
           <div className="navbar-link">
             <Link to="contact">Contact Us</Link>

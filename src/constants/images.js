@@ -20,7 +20,9 @@ import learningTrackThree from "../assets/track3.png";
 import learningTrackFour from "../assets/track4.png";
 import ethMerge from "../assets/ethMerge1.png";
 import web3bridge from "../assets/web3bridge.jpeg"
-import ipfsLogo from "../assets/Ipfs-logo.png"
+import ipfsLogo from "../assets/Ipfs-logo.png";
+import ethEvent from "../assets/EthEvent.jpg"
+import ethBtcmp from "../assets/bootcmp.jpg"
 
 const images = {
   ethLogoGreen,
@@ -45,7 +47,9 @@ const images = {
   ethMerge,
   fourthSliderImage,
   web3bridge,
-  ipfsLogo
+  ipfsLogo,
+  ethEvent,
+  ethBtcmp,
 };
 
 export default images;
