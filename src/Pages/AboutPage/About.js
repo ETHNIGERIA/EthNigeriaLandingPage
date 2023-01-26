@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { images } from '../../constants';
 
 const About = () => {
@@ -44,6 +45,10 @@ const About = () => {
                 src={images.fourthSliderImage}
                 alt="slider image" />
         
+          </div>
+          <div className="border-l-4 border-primary-0 bg-primary-100 p-5">
+            <p>We have also translated the ethereum website to a native nigerian language , check it out <a className="underline text-primary-900" href="https://ethereum.org/ig/">here</a></p>
+            <p>If you are interested in helping us translate the website to your own native labguage , contact us <a href='./#/contact' className='underline text-primary-900'>here</a></p>
           </div>
           <button className='w-[90%] md:w-[50%] border-primary border py-5 rounded-3xl hover:bg-primary opacity-5'> Check out our gallery </button>
     </div>

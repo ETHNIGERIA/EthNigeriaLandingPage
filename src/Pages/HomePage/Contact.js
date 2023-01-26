@@ -68,12 +68,12 @@ const Contact = () => {
 
                     <div className="flex-1 px-2 mt-4 md:mt-0">
                         <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200" htmlFor='email'>Email address</label>
-                        <input type="email" placeholder="johndoe@example.com" name='email' onChange={(e) => setMail(e.target.value)} className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 border border-bg-primary rounded-md focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                        <input type="email" placeholder="johndoe@ethng.io" name='email' onChange={(e) => setMail(e.target.value)} className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 border border-bg-primary rounded-md focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                     </div>
 
                     <div className="flex-1 px-2 mt-4 md:mt-0">
                         <label className="block mb-2 text-sm text-gray-600 dark:text-gray-200" htmlFor='role'>Your Role</label>
-                        <input type="text" placeholder="e.g Student" name='role' className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 border border-bg-primary rounded-md focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
+                        <input type="text" placeholder="e.g blockchain developer" name='role' className="block w-full px-5 py-3 mt-2 text-gray-700 placeholder-gray-400 border border-bg-primary rounded-md focus:border-blue-400 focus:ring-blue-400 focus:outline-none focus:ring focus:ring-opacity-40" />
                     </div>
                 </div>
 
