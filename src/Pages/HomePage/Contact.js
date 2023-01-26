@@ -13,9 +13,9 @@ const Contact = () => {
 
     // const form = useRef();
 
-    const publicKey = "reYT-0D9oKkzCqb4i";
-    const SERVICE_ID = "service_86gxglw";
-    const TEMPLATE_ID = "template_nwlnxog";
+    const publicKey = "eHILTY7rAqTi3hWiL";
+    const SERVICE_ID = "service_1w8y5jc";
+    const TEMPLATE_ID = "template_7dinl9j";
 
     const handleOnSubmit = (e) => {
         e.preventDefault();
