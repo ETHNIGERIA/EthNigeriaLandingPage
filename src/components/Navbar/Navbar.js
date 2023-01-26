@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const changeBackground = () => {
     console.log(window.location.href.slice(-7))
-    if (window.scrollY >= 400 || (window.location.href.slice(-7)) === "contact"|| (window.location.href.slice(-5)) === "about") {
+    if (window.scrollY >= 400 || (window.location.href.slice(-7)) === "contact"|| (window.location.href.slice(-5)) === "about" || (window.location.href.slice(-6)) === "events") {
       setNavbar(true)
     } else {
       setNavbar(false)
