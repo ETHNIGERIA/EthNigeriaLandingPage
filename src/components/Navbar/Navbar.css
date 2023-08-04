@@ -1,0 +1,12 @@
+.navbar{
+      background: rgba(11, 34, 11, 0.32);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(1.1px);
+    -webkit-backdrop-filter: blur(12.1px);
+    border: 1px solid rgba(58, 184, 58, 0.24);
+}
+@media(max-width: 768px){
+  .hed{
+    display: none;
+  }
+}

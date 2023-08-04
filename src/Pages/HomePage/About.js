@@ -4,48 +4,49 @@ import { images } from '../../constants';
 
 const About = () => {
   return (
-    <div className="flex flex-col mx-auto items-center w-full bg-primary-800 text-[#fff]">
+    <div className="flex flex-col mx-auto items-center w-full bg-primary-dark text-[#fff] py-[100px]" id='aboutus'>
       <div className="flex flex-col my-6 items-center justify-center text-center px-3">
-        <h3 className='text-3xl font-bold'>Who we are</h3>
-        <p>consectetur adipiscing elit duis tristique sollicitudin nibh sit amet</p>
+        <h1 className='text-7xl font-bold'>Who we are</h1>
+        {/* <p>consectetur adipiscing elit duis tristique sollicitudin nibh sit amet</p> */}
       </div>
 
-      <div className=" flex flex-col md:flex-row justify-center items-center w-full md:px-[8rem]">
-        <div>
+      <div className="flex flex-col md:flex-row justify-center w-full md:px-[8rem] mt-[35px]">
+        <div className='h-[50vh] w-[100%]'>
           <img
-            className='w-full h-auto px-4'
+            className='w-[100%] h-[100%] px-4 object-cover'
             src={images.aboutMainPic}
             alt="About Main Image" />
         </div>
-        <div className='my-6 px-4'>
-          Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.<br />
-          Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.<br />
-          Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.
+        <div className='my-6 px-4 pt-8 text-2xl w-[100%]'>
+          We are building an ecosystem around ethereum developers and enthusiasts in Nigeria . We hope to build a community around ethereum and decentralization in Nigeria
+          by organizing several meet-ups and hackathons around ethereum and the blockchain. We also spread adoption of ethereum by organizing bootcamps and through courses available to all members of ethereum Nigeria<br />
         </div>
       </div>
-          <div class="flex flex-col md:flex-row items-center my-4 space-y-8 md:space-x-8 md:justify-center">
+          <div className="flex flex-col md:flex-row items-center my-4 space-y-8 md:space-x-8 md:justify-center">
         
               <img
-                className='w-[15rem] h-[15rem] md:mt-8'
+                className='w-[100%] md:w-[15rem]  h-[15rem] object-cover md:mt-8'
                 src={images.firstSliderImage}
                 alt="slider image" />
             
               <img
-                className='w-[15rem] h-[15rem]'
+                className='w-[100%] md:w-[15rem] h-[15rem] object-cover'
                 src={images.secondSliderImage}
                 alt="slider image" />
                 
               <img
-                className='w-[15rem] h-[15rem]'
+                className='w-[100%] md:w-[15rem] h-[15rem] object-cover'
                 src={images.thirdSliderImage}
+                alt="slider image" />
+
+              <img
+                className='w-[100%] md:w-[15rem] h-[15rem] object-cover'
+                src={images.fourthSliderImage}
                 alt="slider image" />
         
-              <img
-                className='w-[15rem] h-[15rem]'
-                src={images.thirdSliderImage}
-                alt="slider image" />
-            
           </div>
+            <a href="/#/gallery" className='w-[90%] md:w-[50%] text-center border-primary border py-5 rounded-3xl hover:bg-primary opacity-5' > Check out our gallery </a>
+
     </div>
   )
 }

@@ -1,17 +1,18 @@
 import React from "react";
-import { images } from "../../constants";
+// import { images } from "../../constants"; 
 
 const Learn = () => {
   return (
-    <div className="flex flex-col items-center">
-      <div className="text-center mb-8 px-3 space-y-2">
-        <h3 className="text-3xl font-bold">Take a course in blockchain</h3>
-        <p>Our goal is to onboard blockchain technology and the opportunity
-          until it is no longer a strange topic</p>
-        <h4 className="font-bold text-1.5xl">Tracks</h4>
+    <div className="flex flex-col items-center bg-primary-dark text-[#fff] p-8">
+      <div className="text-center mb-8 px-3 space-y-8">
+        <h1 className="text-5xl drop-shadow-lg shadow-black font-bold mt-8">REGISTER FOR OUR UPCOMING BOOTCAMP</h1>
+        <p className="text-2xl  ">Our Upcoming 3-month intensive bootcamp aims to introduce developers into web3 , teach the basics of solidity and how to build decentralized applications</p>
+        <a className='md:w-[50%] w-full bg-primary py-5 rounded-3xl hover:bg-none block mx-auto' href="https://bit.ly/ETHNigeriaBootcamp"> Register Here </a>
+        
+        {/* <h4 className="font-bold text-1.5xl">Tracks</h4> */}
       </div>
 
-      <div className="flex flex-col md:flex-row items-center md:space-x-10 space-y-4 text-center">
+      {/* <div className="flex flex-col md:flex-row items-center md:space-x-10 space-y-4 text-center">
         <div className="h-[18rem] w-[17rem]">
           <div>
             <img className="w-[17rem] h-[11rem] mb-4" src={images.learningTrackOne} alt="learning track" />
@@ -27,9 +28,9 @@ const Learn = () => {
           <h3 className="font-bold mb-4">Malesuada Fermentum Tortor</h3>
           <p>consectetur adipiscing elit duis tristique sollicitudin nibh sit amet</p>
         </div>
-      </div>
+      </div> */}
 
-      <div className="flex flex-col md:flex-row items-center md:space-x-10 space-y-4 text-center my-4">
+      {/* <div className="flex flex-col md:flex-row items-center md:space-x-10 space-y-4 text-center my-4">
         <div className="h-[18rem] w-[17rem]">
           <div>
           <img className="w-[17rem] h-[11rem] mb-4" src={images.learningTrackThree} alt="learning track" />
@@ -44,7 +45,7 @@ const Learn = () => {
             <h3 className="font-bold mb-4">Malesuada Fermentum Tortor</h3>
             <p>consectetur adipiscing elit duis tristique sollicitudin nibh sit amet</p>
           </div>
-      </div>
+      </div> */}
     </div>
   );
 };
